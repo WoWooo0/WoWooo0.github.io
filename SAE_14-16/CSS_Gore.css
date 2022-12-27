@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+/***************** navbar  ******************/
+
+.bg-light{
+    background:rgba(112, 109, 109, 0.2) !important;
+    ;
+    
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background: rgba(194, 14, 14, 0.185);
+    
+}
+.dropdown-item{
+    font-size: 18px;
+    padding-left: 25px;
+    
+}
+.nav-item{
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link:link,
+.navbar-expand-lg .navbar-nav .nav-link:visited {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link:active {
+    border-bottom: 2px solid gray;
+}
+
+/******************************* header ********************************/
+
+.main-title{
+    margin: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.main-title2{
+    margin: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/carousel_img1.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenu {
+    padding-top: 35%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+.bordure {
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+}
+
