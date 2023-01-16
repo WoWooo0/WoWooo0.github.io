@@ -1,22 +1,19 @@
-html {
-    scroll-behavior: smooth;
-}
-
-
 
 body {
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 footer {
-    background-color: #f2f2f2;
-    padding: 25px;
+    background: white;
+    padding-top: 5px;
 }
 
 /***************** navbar  ******************/
 
 .bg-light{
-    background:rgba(112, 109, 109, 0.2) !important;
-    ;
+    background: rgba(34, 33, 33, 0.712) !important;
+    
     
 
 }
@@ -46,9 +43,15 @@ footer {
 .navbar-expand-lg .navbar-nav .nav-link:hover,
 .navbar-expand-lg .navbar-nav .nav-link:active {
     border-bottom: 2px solid gray;
+
 }
 
-/******************************* header ********************************/
+.navbar-toggler {
+    background:rgb(112, 109, 109) !important;
+
+}
+
+/******************************* header  ********************************/
 
 .main-title{
     margin: 15px;
@@ -64,7 +67,8 @@ footer {
     font-weight: 200;
 }
 .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/carousel_img1.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(image/carousel_img1.webp);
+    
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -79,8 +83,76 @@ footer {
     
 }
 .bordure {
-    border: 2px solid whitesmoke;
+    border: 22px outset  whitesmoke;
     border-radius: 15px;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
 }
+/* *************************** SECTION INDEX ********************* */
 
+.section {
+    background-color: #245e71;
+    
+}
+.contenu1{
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 3rem;
+    
+   
+}
+.contenu2{
+    padding: 3rem;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.textepresentation{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5% 5%;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase ;
+    font-weight: 600;
+    color: white;
+    padding-top: 2%;
+    text-shadow: 13px 0px 18px rgba(26,24,24,0.45);
+}
+
+
+.card {
+    
+    border: 2px solid black;
+    background-color: #245e71;
+}
+    
+.card-body {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+/* -------------------------COMPETENCES--------------------------- */
+.body_competences{
+    height: 100vh;
+    background-color: #245e71;
+}
+.section_competences { 
+    margin-top: 15%;
+}
