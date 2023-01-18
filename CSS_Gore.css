@@ -3,17 +3,9 @@ body {
   padding: 0;
   margin: 0;
 }
-footer {
-  background: white;
-  padding-top: 5px;
-}
+
 
 /***************** navbar  ******************/
-
-.bg-light,
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-  background: rgba(34, 33, 33, 0.712) !important;
-}
 
 .dropdown-item {
   font-size: 18px;
@@ -43,7 +35,7 @@ footer {
   background: rgb(112, 109, 109) !important;
 }
 
-/******************************* header  ********************************/
+/******************************* header index.html  ********************************/
 
 .main-title {
   margin: 15px;
@@ -77,11 +69,19 @@ footer {
   border-radius: 15px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
-/* *************************** SECTION INDEX ********************* */
+/* ************************************************ SECTION INDEX ******************************************** */
+.section {
+  background: #ffffff;
+  background: linear-gradient(176deg,#ffffff 0%, #9eb5cd 80%);
+  background: -webkit-linear-gradient(176deg,#ffffff 0%, #9eb5cd 80%);
+  background: -moz-linear-gradient(176deg,#ffffff 0%, #9eb5cd 80%);  
+}
+/* ********** ARTICLE A PROPOS DE MOI ******** */
 
 .article {
   background-color: #245e71;
 }
+
 .contenu1,
 .photodeprofil2 {
   display: flex;
@@ -102,7 +102,6 @@ footer {
   color: white;
 }
 
-
 .apropos {
   text-align: center;
   text-transform: uppercase;
@@ -111,103 +110,26 @@ footer {
   padding-top: 2%;
   padding-bottom: 2%;
   text-shadow: 13px 0px 18px rgba(26, 24, 24, 0.45);
-  border-top: 15px ridge whitesmoke;
-  
+  border-top: 15px ridge whitesmoke;    
 }
 
+.rounded-circle {
+  height: 75%;
+  border: 10px ridge #f5f5f5;
+  
+} 
+/* ********** FIN ARTICLE A PROPOS DE MOI ******** */
+/* ********** ARTICLE FORMATION ******** */
 .apropos2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
   color: rgb(32, 31, 31);
-  padding-top: 2%;
+  padding-top: 5%;
   padding-bottom: 2%;
   text-shadow: 13px 0px 18px rgba(26, 24, 24, 0.45);
-  /* border-top: 15px ridge whitesmoke; */
-}
-
-
-
-
-/* -------------------------COMPETENCES--------------------------- */
-.body_competences {
-  height: 100vh;
-  background-color: #245e71;
-}
-.section_competences {
-  margin-top: 15%;
-}
-
-.box{
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px
-}
-
-.our-services{
-  margin-top: 75px
-  ;padding-bottom: 30px;
-  padding: 0 60px;
-  min-height: 198px;
-  text-align: center;
-  border-radius: 10px;
-  background-color: #fff;
-  transition: all .4s ease-in-out;
-  box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
-}
-.our-services .icon{
-  margin-bottom: -21px;
-  transform: translateY(-50%);
-  text-align: center
-}
-.our-services:hover h4, .our-services:hover p{
-  color: #fff
-}
-.speedup:hover
-{ box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
-  }
-  .settings:hover{
-    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
-  }
-  .privacy:hover{
-    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
-  }
-  .backups:hover{
-    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
-  }
-  .ssl:hover{
-    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
-  }
-  .database:hover{
-    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
-  }
-
-.img-fluid {
-  height: 75%;
-  border: 10px ridge #f5f5f5;
-  
-} 
-
-.article2 {
-  background-image: url(image/empty-elegant-background-with-copy-space.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   
 }
- /* Formation */
 
 .main-timeline {
   position: relative
@@ -456,4 +378,323 @@ footer {
   .main-timeline .title {
       margin-bottom: 10px
   }
+}
+/* ********** FIN ARTICLE FORMATION ******** */
+/* ********** ARTICLE COMPETENCES ******** */
+h4{
+  padding-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+.box{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+.our-services{
+  margin-top: 75px
+  ;padding-bottom: 30px;
+  padding: 0 60px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+}
+.our-services .icon{
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center
+}
+.our-services:hover h4, .our-services:hover p{
+  color: #fff
+}
+.speedup:hover
+{ box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+  }
+  .settings:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+  }
+  .privacy:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+  }
+  .backups:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+  }
+  .ssl:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+  }
+  .database:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+  }
+/* ********** FIN ARTICLE COMPETENCES ******** */
+/* ********** ARTICLE EXPERIENCE PROFESSIONNELLE ******** */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  text-align: center
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+a.btn {
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.table th {
+  background-color: #245e71;
+  color: #fff;
+}
+.table td {
+  border: 1px solid #245e71;
+}
+
+/* Utilisez des icônes pour les boutons */
+a.btn {
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #245e71;
+  border-radius: 10px;
+  
+}
+
+/* Utilisez des animations pour les boutons */
+a.btn:hover {
+  background-color: #113b49;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Utilisez des animations pour les changements de couleur lorsque la souris passe sur les boutons */
+tr:hover {
+  background-color: #f5f5f5;
+  transition: all 0.2s ease-in-out;
+}
+/* ********** FIN ARTICLE EXPERIENCE PROFESSIONNELLE ******** */
+/* ********** ARTICLE Centre d'interet ******** */
+
+.container .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.interet {
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    border: none;
+    background-color: inherit;
+}
+
+.card .face {
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    /* border-right: 1px solid #999;
+border-bottom: 1px solid #999; */
+}
+
+.card .face.front-face,
+.card .face.back-face {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .face.front-face .profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .face.front-face .name {
+    letter-spacing: 2px;
+}
+
+.card .face.front-face {
+    font-size: 0.8rem;
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.card:hover .face.front-face {
+    transform: rotateY(180deg);
+}
+
+.card .face.back-face {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.06);
+    transform: rotateY(180deg);
+    padding: 20px 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.card .face.back-face .fa-quote-left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 1.2rem;
+}
+
+.card .face.back-face .fa-quote-right {
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+    font-size: 1.2rem;
+}
+
+.card:hover .face.back-face {
+    transform: rotateY(360deg);
+}
+
+@media(max-width: 991.5px) {
+    .col-lg-4 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+.article5 {
+  padding-bottom: 20px;
+}
+
+/* ********** FIN ARTICLE EXPERIENCE PROFESSIONNELLE ******** */
+/* ************************************************ FIN SECTION INDEX ******************************************** */
+
+/* ************************************************ COMPETENCES.HTML ******************************************** */
+.body_competences {
+  
+  background-color: #245e71;
+}
+.section_competences {
+  margin-top: 70px;
+}
+
+.nav-pills-custom .nav-link {
+  color: #aaa;
+  background: #fff;
+  position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+  color: #45b649;
+  background: #fff;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+  .nav-pills-custom .nav-link::before {
+      content: '';
+      display: block;
+      border-top: 8px solid transparent;
+      border-left: 10px solid #fff;
+      border-bottom: 8px solid transparent;
+      position: absolute;
+      top: 50%;
+      right: -10px;
+      transform: translateY(-50%);
+      opacity: 0;
+  }
+}
+
+.nav-pills-custom .nav-link.active::before {
+  opacity: 1;
+}
+
+.aproposcompetences {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-shadow: 13px 0px 18px rgba(26, 24, 24, 0.45);
+}
+
+/* ************************************************ LIEN_UTILES.HTML ******************************************** */
+
+.bakcground_lienutiles {
+  background-color: #245e71;
+
+}
+
+.aproposliensutiles {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: whitesmoke;
+  padding-top: 7%;
+  padding-bottom: 2%;
+  text-shadow: 13px 0px 18px rgba(26, 24, 24, 0.45);
+}
+
+.offcanvas-body{
+  color: whitesmoke; 
+}
+.offcanvas-title{
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}
+.reseau {
+  padding-bottom: 20px;
+  
+  color: whitesmoke;
+  text-decoration: none;
+  
+
 }
